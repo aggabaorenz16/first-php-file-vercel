@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; charset=UTF-8');
 $pageTitle = $pageTitle ?? 'RenzDev Portfolio';
 $activePage = $activePage ?? 'home';
 $scriptPath = str_replace('\\', '/', $_SERVER['SCRIPT_NAME']);
